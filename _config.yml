@@ -1,0 +1,68 @@
+# Site settings
+title: Soda Apps
+email: colaappsllc@sodaapps.com
+url: https://github.com/jeromelachaud/freelancer-theme
+description: "We empower small businesses through software solutions and web design."
+keywords: "your keywords, separated by commas"
+skills: "Helping Small Businesses Pop"
+meta_author: Soda Apps LLC
+about1: Born and raised in Columbia, SC we strive to help small businesses increase revenue through modern web design and digital marketing. Our software solutions are simple, efficient, and priced to aid a small business in gaining a competitive edge against larger companies.
+about2: With 10+ years of combined web development experience, we guarantee we can deliver and a high quality product that won't break the bank!
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: DFE0DF #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 006E61 #FD6E8A
+  secondary-dark: 522400 #A2122F
+
+# Footer settings
+footer:
+  copyright: Soda Apps LLC
+  location: Location
+  social: Social
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url:
+  - title: instagram
+    url:
+  - title: twitter
+    url: 
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+  - line: Columbia SC, 29210
+
+# Credits content
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
